@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card {
+    width: 300px;
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    h2 {
+        border: 1px solid rgba(58, 56, 56, 0.719);
+    }
+}
